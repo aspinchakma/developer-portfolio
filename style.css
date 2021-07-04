@@ -5,10 +5,13 @@ body{
 h1{
     font-size:50px;
 }
+h2{
+    font-size:40px;
+}
 .aspin-chakma{
     color:#FFA500;
 }
-section{
+.flexible-container{
     display:flex;
     margin-bottom:110px;
 }
@@ -42,3 +45,33 @@ section{
 }
 .middle-man img{
     width:89%
+}
+.experience-list{
+    box-shadow:10px 10px 30px black;
+    width:80%;
+    margin-left:5%;
+    margin-right:5%;
+    padding-left:34px;
+    padding-bottom:101px;
+}
+.footer-section{
+    background-image:url(images/exp-bg.png);
+    background-repeat:no-repeat;
+    background-position:left;
+}
+#experience-1{
+    border-left:10px solid;
+    border-image: linear-gradient(#FF694C, #FF9B76);
+    border-image-slice:1;
+
+}
+#experience-2{
+    border-left:10px solid;
+   border-image:linear-gradient(#0107FF, #00F4FF);
+   border-image-slice:1;
+}
+footer p{
+    font-size:12px;
+    color:#696969;
+    text-align:center;
+}
